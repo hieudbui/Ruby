@@ -11,3 +11,6 @@ class HelloWorld
 end  
   
 (HelloWorld.new "test").doHello
+
+
+puts %w(one,two,three)
