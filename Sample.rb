@@ -2,12 +2,12 @@ puts "hello"
 
 
 class HelloWorld 
-  def initialize
-    puts "initialize called"
+  def initialize(a)
+    puts "initialize called with param #{a}"
   end 
   def doHello()  
     puts "Hello World"  
   end  
 end  
   
-HelloWorld.new.doHello
+(HelloWorld.new "test").doHello
