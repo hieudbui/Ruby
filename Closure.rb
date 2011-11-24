@@ -2,7 +2,7 @@ def whatami(&block)
   block.class
 end
 
-def blockwithparam(a, block)
+def blockwithparam(a, &block)
   
   puts a
   block.call
