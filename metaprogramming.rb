@@ -8,3 +8,8 @@ puts matz.class
 puts matz.speak()
 puts matz.speak
 puts matz.speak.class
+
+
+matz2= Object.new
+matz2.speak
+
