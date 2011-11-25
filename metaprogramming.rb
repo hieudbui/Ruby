@@ -43,3 +43,30 @@ end
 
 B.test
 B.new.test
+
+
+
+class Person
+end
+
+Person.class_eval do
+  def say_hello
+   "Hello!"
+  end
+end
+
+jimmy = Person.new
+puts jimmy.say_hello
+#Person.say_hello
+
+
+class Person
+end
+
+Person.instance_eval do
+  def human?
+    true
+  end
+end
+
+puts Person.human? # true
