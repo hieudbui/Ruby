@@ -6,4 +6,5 @@ y={"a"=>1,"b"=>2}
 puts y
 puts y.class
 puts y["a"]
+puts y["b"]
 
