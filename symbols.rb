@@ -7,3 +7,5 @@ puts :hieu.to_i.class
 puts 1.class
 
 #:hieu.to_s="hieu"
+
+puts $:
