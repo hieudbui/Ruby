@@ -65,3 +65,17 @@ babe = Pig.new
 
 babe.lives_in
 puts babe.eats
+
+module A
+  def A.hi
+    "hi"
+  end
+  class A1
+    def print
+      "hi"
+    end
+  end
+end
+
+puts A.hi
+puts A::A1.new.print
