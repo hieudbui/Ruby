@@ -11,8 +11,19 @@ puts matz.speak.class
 
 
 matz2= Object.new
-#matz2.speak
 
+
+matz2.instance_eval do
+   def ten
+     10
+   end
+end
+puts matz2.ten
+
+
+add_two = Proc.new { self + 2 }
+
+puts 1.instance_eval(&add_two)
 
 
 class A
